@@ -1,16 +1,22 @@
-# search_for_number
+**The Search For Numbers mobile application**
 
-A new Flutter project.
+The user needs to search for a number that is provided in the task above a list of numbers. The number on the button is equal to this score. The numbers are fading out and fading in again, to make the search a little bit harder.
 
-## Getting Started
+Application is created of **a widget tree**, **a map**, **three methods:**
 
-This project is a starting point for a Flutter application.
+- **A widget tree:**
 
-A few resources to get you started if this is your first Flutter project:
+![](https://github.com/Laura555-p/searchfornumbers/blob/master/assets/images/searchfornumberswidgettree.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- The map **'_tasks'** is a collection of tasks and possible scores.
+- Method **'_answerOfTask'** sums selected scores.
+- Method **'_resetQuiz'** resets the quiz.
+- Method (get) **'resultPhrase'** checks if the correct combination of numbers was selected. This method is using the **'If'** statement.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![](https://github.com/Laura555-p/searchfornumbers/blob/master/assets/images/searcfornumber1.PNG)
+![](https://github.com/Laura555-p/searchfornumbers/blob/master/assets/images/searcfornumber2.PNG)
+![](https://github.com/Laura555-p/searchfornumbers/blob/master/assets/images/searcfornumber3.PNG)
+![](https://github.com/Laura555-p/searchfornumbers/blob/master/assets/images/searcfornumber4.PNG)
+![](https://github.com/Laura555-p/searchfornumbers/blob/master/assets/images/searcfornumber5.PNG)
+![](https://github.com/Laura555-p/searchfornumbers/blob/master/assets/images/searcfornumber6.PNG)
+![](https://github.com/Laura555-p/searchfornumbers/blob/master/assets/images/searcfornumber7.PNG)
